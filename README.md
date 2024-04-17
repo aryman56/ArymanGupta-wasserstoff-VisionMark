@@ -52,8 +52,8 @@ Visit MongoDB website, create account, database and take connection string.
 After that generate 256 bits random key and add it to .env file.
 Create the .env file in the root directory with the following contents:
 ```
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
+MONGO_URI=mongodb://localhost:27017/practice
+JWT_SECRET=05cc2cbbea067396ae7a33d8ea73f2b830fc55c6e9005d0d2eef92d620f9ae13
 ```
 
 6. Run the application:
